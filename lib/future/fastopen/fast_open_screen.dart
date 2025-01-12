@@ -1,4 +1,6 @@
 
+import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -40,16 +42,17 @@ class _RotationDemoState extends State<RotationDemo> {
             onPressed: _rotate,
             child: const Text("Rotate"),
           ),
+
           CircleAvatar(),
-          CircleAvatar(),
-          CircleAvatar(),
-          CircleAvatar(),
-          CircleAvatar(),
-          CircleAvatar(),
-          CircleAvatar(),
-          CircleAvatar(),
+          Text('data'),
           CircleAvatar(radius: 22,),
-          AboutDialog()
+          AboutDialog(),
+          Text('$log('')'),
+          Text('$log('')'),
+          Text('$log('')'),
+          Text('$log('')'),
+          Text('$log('')'),
+          Text('$log('')'),
         ],
       ),
     );
