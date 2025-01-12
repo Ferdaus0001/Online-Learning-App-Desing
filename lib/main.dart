@@ -1,8 +1,14 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:my_poject/future/auth/presentation/login_screen.dart';
 
-import 'image_screenj.dart';
+import 'future/linear_gradent/presenation/linear_gradent.dart';
+import 'future/loding/presentation/loding_screen.dart';
+import 'future/onboding/presentation/onboarding_screen.dart';
+import 'future/introduction_screen/introduction_screen.dart';
+
+
 
 
 
@@ -18,16 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
-
-     home: LoginScreen(),
-
-
-
-
-
-
-
+     home:  LodingScreen(),
     );
   }
 }
