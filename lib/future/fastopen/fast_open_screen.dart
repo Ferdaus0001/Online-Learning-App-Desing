@@ -24,6 +24,7 @@ class _RotationDemoState extends State<RotationDemo> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Text('Animations',style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold,color: Colors.blue),),
           AnimatedRotation(
             turns: _turns,
             duration: const Duration(seconds: 1),
