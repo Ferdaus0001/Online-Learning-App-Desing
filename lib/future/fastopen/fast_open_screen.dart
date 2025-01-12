@@ -1,18 +1,44 @@
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-class FastOpenScreen extends StatefulWidget {
-  const FastOpenScreen({super.key});
+
+class RotationDemo extends StatefulWidget {
+  const RotationDemo({Key? key}) : super(key: key);
 
   @override
-  State<FastOpenScreen> createState() => _FastOpenScreenState();
+  State<RotationDemo> createState() => _RotationDemoState();
 }
 
-class _FastOpenScreenState extends State<FastOpenScreen> {
+class _RotationDemoState extends State<RotationDemo> {
+  double _turns = 0.0;
+
+  void _rotate() {
+    setState(() {
+      _turns += 0.25; // 90 ডিগ্রি প্রতি ক্লিকে
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Column(
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Ferdau '),
+          AnimatedRotation(
+            turns: _turns,
+            duration: const Duration(seconds: 1),
+            curve: Curves.easeInOut,
+            child: Icon(
+              Icons.rotate_right,
+              size: 100,
+              color: Colors.blue,
+            ),
+          ),
+          const SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: _rotate,
+            child: const Text("Rotate"),
+          ),
         ],
       ),
     );
