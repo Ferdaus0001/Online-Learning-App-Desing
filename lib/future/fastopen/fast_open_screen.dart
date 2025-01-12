@@ -40,6 +40,16 @@ class _RotationDemoState extends State<RotationDemo> {
             onPressed: _rotate,
             child: const Text("Rotate"),
           ),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(),
+          CircleAvatar(radius: 22,),
+          AboutDialog()
         ],
       ),
     );
