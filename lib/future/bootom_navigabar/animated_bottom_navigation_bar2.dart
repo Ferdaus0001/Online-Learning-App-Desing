@@ -24,10 +24,12 @@ class _AnimatedBottomNavigationBar2State
   final Color notActiveNavigationBarColor = Colors.grey;
 
   final List<Widget> pages = [
+
     Center(child: Text("Home Screen")),
     Center(child: Text("Favorite Screen")),
     Center(child: Text("Cart Screen")),
     Center(child: Text("Profile Screen")),
+
   ];
 
   @override
