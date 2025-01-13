@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'future/bootom_navigabar/animated_bottom_navigation_bar.dart';
+import 'future/bootom_navigabar/animated_bottom_navigation_bar2.dart';
 import 'future/bootom_navigabar/bootom_navigation_bar.dart';
 import 'future/bootom_navigabar/botom_navigation_bar_widget.dart';
 import 'future/bootom_navigabar/curved_navigation_bar.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-     home:  CurvedNavigationBarScreen(),
+     home:  AnimatedBottomNavigationBar2(),
     );
   }
 }
