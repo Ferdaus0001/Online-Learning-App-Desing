@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_poject/future/auth/presentation/login_screen.dart';
 
+import 'future/bootom_navigabar/animated_bottom_navigation_bar.dart';
+import 'future/bootom_navigabar/bootom_navigation_bar.dart';
 import 'future/fastopen/fast_open_screen.dart';
 import 'future/lauqud_design/presentation/luqent_design_screen.dart';
 import 'future/linear_gradent/presenation/linear_gradent.dart';
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-     home:  RotationDemo(),
+     home:  AnimatedBottomNavigationBar(),
     );
   }
 }
