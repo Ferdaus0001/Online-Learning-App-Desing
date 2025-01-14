@@ -2,6 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:my_poject/future/dailogbox/dialog_box_screen.dart';
 
 import 'future/bootom_navigabar/animated_bottom_navigation_bar.dart';
 import 'future/bootom_navigabar/animated_bottom_navigation_bar2.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-     home:  TabbarScreen(),
+     home:  DialogBoxScreen(),
     );
   }
 }
