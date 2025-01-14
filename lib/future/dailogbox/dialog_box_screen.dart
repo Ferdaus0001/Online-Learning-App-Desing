@@ -36,7 +36,9 @@ class _DialogBoxScreenState extends State<DialogBoxScreen> {
              TextButton(onPressed: (){
                Get.back();
              },child: Text('OK'),),
-             TextButton(onPressed: (){},child: Text('NO'),),
+             TextButton(onPressed: (){
+               Get.back();
+             },child: Text('NO'),),
            ],
          ),
 

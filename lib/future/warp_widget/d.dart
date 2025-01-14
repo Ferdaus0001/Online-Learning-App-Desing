@@ -15,7 +15,9 @@ class _DScreenState extends State<DScreen> {
     return  AlertDialog(
       backgroundColor: Colors.grey,
       elevation: 9,
-         icon: IconButton(onPressed: (){}, icon: Icon(Icons.deblur,color: Colors.blue,)) ,
+         icon: IconButton(onPressed: (){
+
+         }, icon: Icon(Icons.deblur,color: Colors.blue,)) ,
 
 
 

@@ -29,6 +29,10 @@ class _WirpScreenState extends State<WirpScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              IconButton(onPressed: (){
+                Scaffold.of(context);
+
+              }, icon: Icon(Icons.add_shopping_cart)),
               Wrap(
                 spacing: 5,
                 runSpacing: 11,
