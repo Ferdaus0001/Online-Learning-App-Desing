@@ -15,9 +15,12 @@ class _DScreenState extends State<DScreen> {
     return  AlertDialog(
       backgroundColor: Colors.grey,
       elevation: 9,
-      actions: [
-        Text('hi'),
-      ],
+      content:  Column(
+        children: [
+          
+        ],
+      ),
+
 
 
     );
