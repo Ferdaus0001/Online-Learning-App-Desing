@@ -21,11 +21,14 @@ class _TabbarScreenState extends State<TabbarScreen> {
         child: Column(
           children: [
             const Padding(padding: EdgeInsets.symmetric(vertical: 122)),
-            AnimatedRotation(
-              turns: 1,
-              duration: Duration(seconds: 4),
-              child: Icon(Icons.refresh, size: 60),
-            ),
+           AnimatedContainer(
+             height: 50,
+               width: 50,
+               decoration: BoxDecoration(
+                 color: Colors.blue,
+               ),
+               duration: Duration(seconds: 3),
+           ),
 
             Center(
               child: GestureDetector(
