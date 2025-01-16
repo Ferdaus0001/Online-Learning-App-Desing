@@ -20,19 +20,14 @@ class _TabbarScreenState extends State<TabbarScreen> {
         child: Column(
           children: [
             const Padding(padding: EdgeInsets.symmetric(vertical: 122)),
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
-           //// Text(''),/////
+             Container(
+               height: 50,
+               width: 50,
+               decoration: BoxDecoration(
+               color: Colors.red,
+                 borderRadius: BorderRadius.circular(22),
+               ),
+             ),
             Center(
               child: GestureDetector(
                 onTap: () {
