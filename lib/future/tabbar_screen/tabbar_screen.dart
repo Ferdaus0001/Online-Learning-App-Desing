@@ -11,6 +11,7 @@ class TabbarScreen extends StatefulWidget {
 }
 
 class _TabbarScreenState extends State<TabbarScreen> {
+  bool _true = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,14 +21,7 @@ class _TabbarScreenState extends State<TabbarScreen> {
         child: Column(
           children: [
             const Padding(padding: EdgeInsets.symmetric(vertical: 122)),
-             Container(
-               height: 50,
-               width: 50,
-               decoration: BoxDecoration(
-               color: Colors.red,
-                 borderRadius: BorderRadius.circular(22),
-               ),
-             ),
+             AnimatedRotation(turns: 0, duration:Duration(seconds: 3) ),
             Center(
               child: GestureDetector(
                 onTap: () {
