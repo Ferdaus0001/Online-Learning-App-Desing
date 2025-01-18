@@ -29,6 +29,15 @@ class _DrawerScreenState extends State<DrawerScreen> {
               Column(
                 children: [
                   SizedBox(height: 50,),
+                  SizedBox(height: 50,),
+                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
+                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
+                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
+                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
+                  Image.asset(''),
+                  Image.asset(''),
+                  Image.asset(''),
+                  Image.asset(''),
                 ],
               )
             ],
