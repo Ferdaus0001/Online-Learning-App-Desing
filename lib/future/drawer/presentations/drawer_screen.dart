@@ -11,6 +11,17 @@ class DrawerScreen extends StatefulWidget {
 class _DrawerScreenState extends State<DrawerScreen> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold();
+    return  Scaffold(
+      body: Column(
+        children: [
+          Text('HI'),
+          Container(
+            height: 50,
+            width: 50,
+            decoration: BoxDecoration(color: Colors.red),
+          )
+        ],
+      ),
+    );
   }
 }
