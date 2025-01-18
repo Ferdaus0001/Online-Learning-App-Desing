@@ -19,7 +19,20 @@ class _DrawerScreenState extends State<DrawerScreen> {
             height: 50,
             width: 50,
             decoration: BoxDecoration(color: Colors.red),
-          )
+          ),
+          Expanded(child: Column(
+            children: [
+              Text('HI'),
+              Text('HI'),
+              Text('HI'),
+              Text('HI'),
+              Column(
+                children: [
+                  SizedBox(height: 50,),
+                ],
+              )
+            ],
+          ))
         ],
       ),
     );
