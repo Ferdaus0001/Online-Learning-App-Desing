@@ -22,6 +22,11 @@ class _DrawerScreenState extends State<DrawerScreen> {
                    ),
                    CircleAvatar(radius: 50,backgroundColor: Colors.red,),
                    Text('hi'),
+                   Text('hi'),
+                   Text('hi'),
+                  CircleAvatar(),
+                   CircleAvatar(),
+                   CircleAvatar(),
                  ],
 
 
