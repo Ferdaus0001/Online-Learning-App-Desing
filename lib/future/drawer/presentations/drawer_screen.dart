@@ -13,36 +13,20 @@ class _DrawerScreenState extends State<DrawerScreen> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Column(
-        children: [
-          Text('HI'),
-          Container(
-            height: 50,
-            width: 50,
-            decoration: BoxDecoration(color: Colors.red),
-          ),
-          Expanded(child: Column(
-            children: [
-              Text('HI'),
-              Text('HI'),
-              Text('HI'),
-              Text('HI'),
-              Column(
-                children: [
-                  SizedBox(height: 50,),
-                  SizedBox(height: 50,),
-                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
-                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
-                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
-                  CircleAvatar(radius: 50,backgroundColor: Colors.blue,),
-                  Image.asset(''),
-                  Image.asset(''),
-                  Image.asset(''),
-                  Image.asset(''),
-                ],
-              )
-            ],
-          ))
-        ],
+                 children: [
+                   Container(
+                     decoration: BoxDecoration(
+                       borderRadius: BorderRadius.circular(22),
+                 border: Border.all(color: Colors.red)
+                     ),
+                   )
+                 ],
+
+
+
+
+
+
       ),
     );
   }
