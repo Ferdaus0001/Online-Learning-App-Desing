@@ -17,9 +17,11 @@ class _DrawerScreenState extends State<DrawerScreen> {
                    Container(
                      decoration: BoxDecoration(
                        borderRadius: BorderRadius.circular(22),
-                 border: Border.all(color: Colors.red)
+                 border: Border.all(color: Colors.red),
                      ),
-                   )
+                   ),
+                   CircleAvatar(radius: 50,backgroundColor: Colors.red,),
+                   Text('hi'),
                  ],
 
 
