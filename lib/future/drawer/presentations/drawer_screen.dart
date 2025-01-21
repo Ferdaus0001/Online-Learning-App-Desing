@@ -20,13 +20,12 @@ class _DrawerScreenState extends State<DrawerScreen> {
                  border: Border.all(color: Colors.red),
                      ),
                    ),
-                   CircleAvatar(radius: 50,backgroundColor: Colors.red,),
-                   Text('hi'),
-                   Text('hi'),
-                   Text('hi'),
-                  CircleAvatar(),
-                   CircleAvatar(),
-                   CircleAvatar(),
+                   CircleAvatar(radius: 50,),
+                   Text('Hi Ferdaus '),
+                   Container(decoration: BoxDecoration(color: Colors.red),),
+                   ListTile(),
+
+
                  ],
 
 
