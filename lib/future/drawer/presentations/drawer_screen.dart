@@ -58,7 +58,10 @@ class _DrawerScreenState extends State<DrawerScreen> {
                          ),
                        ),
                      ],
-                   )
+                   ),
+                   Expanded(child: CircleAvatar()),
+                   Container(),
+                   AppKitView(viewType: String.fromCharCode(4)),
 
 
                  ],
