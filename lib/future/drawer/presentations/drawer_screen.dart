@@ -12,6 +12,11 @@ class _DrawerScreenState extends State<DrawerScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+
+      ),
+
       body: Column(
                  children: [
                    Container(
@@ -25,6 +30,9 @@ class _DrawerScreenState extends State<DrawerScreen> {
                    Container(decoration: BoxDecoration(color: Colors.red),),
                    ListTile(),
 
+
+
+                   IconButton(onPressed: (){}, icon: Icon(Icons.abc))
 
                  ],
 
