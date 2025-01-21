@@ -28,11 +28,38 @@ class _DrawerScreenState extends State<DrawerScreen> {
                    CircleAvatar(radius: 50,),
                    Text('Hi Ferdaus '),
                    Container(decoration: BoxDecoration(color: Colors.red),),
-                   ListTile(),
+                   ListTile(onTap: (){},
+
+                   ),
 
 
 
-                   IconButton(onPressed: (){}, icon: Icon(Icons.abc))
+                   IconButton(onPressed: (){}, icon: Icon(Icons.abc)),
+                   CustomScrollView(
+                     slivers: [
+                       SliverAppBar(
+                         expandedHeight: 200.0,
+                         flexibleSpace: FlexibleSpaceBar(
+                           title: Text("Custom ScrollView"),
+                           background: Image.network(
+                             'https://via.placeholder.com/200',
+                             fit: BoxFit.cover,
+                           ),
+                         ),
+                       ),
+                       SliverList(
+                         delegate: SliverChildBuilderDelegate(
+                               (BuildContext context, int index) {
+                             return ListTile(
+                               title: Text("Item #$index"),
+                             );
+                           },
+                           childCount: 50, // Total items
+                         ),
+                       ),
+                     ],
+                   )
+
 
                  ],
 
