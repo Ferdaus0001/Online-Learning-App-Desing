@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_poject/future/onboding/presentation/models/data_models.dart';
+
+import 'models/data_models.dart';
+
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
-import 'package:my_poject/future/lauqud_design/presentation/widget/page_one_screen.dart';
-import 'package:my_poject/future/lauqud_design/presentation/widget/page_three_screen.dart';
-import 'package:my_poject/future/lauqud_design/presentation/widget/page_two.dart';
+
+import 'package:my_project/future/lauqud_design/presentation/widget/page_one_screen.dart';
+import 'package:my_project/future/lauqud_design/presentation/widget/page_three_screen.dart';
+import 'package:my_project/future/lauqud_design/presentation/widget/page_two.dart';
 class LuqentDesignScreen extends StatefulWidget {
   const LuqentDesignScreen({super.key});
 
